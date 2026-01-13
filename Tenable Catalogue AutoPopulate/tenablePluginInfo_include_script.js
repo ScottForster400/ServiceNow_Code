@@ -10,7 +10,7 @@ tenablePluginInfo.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 		var fieldName = this.getParameter('sysparm_field');
 
 		//Querys tenable plugin table based on parameters passed in
-		var gr = new GlideRecord('x_tsirm_tio_itsm_plugin');
+		var gr = new GlideRecord(''); //Removed table name for security
 		gr.addQuery(fieldName,pluginIdentfier);
 		gr.query();
 
@@ -30,7 +30,7 @@ tenablePluginInfo.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 
 			//Fetches all accociated Vulnerabilities
 			associated_vulns = '';
-			var gr_2 = new GlideRecord('x_tsirm_tio_itsm_vulnerability');
+			var gr_2 = new GlideRecord(''); //Removed table name for security
 		
 			gr_2.addQuery('tenable_plugin',gr.sys_id);
 			gr_2.query();
