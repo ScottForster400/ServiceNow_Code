@@ -8,7 +8,8 @@ This is the code for the What's New widget. This is the custom widget I created 
 ![image info](widget.png)
 
 ## File Structure
-'''
+
+<p>
 Whats New Widget/
 ├── Deployment Update Record Scripts/
 │   ├── Client Scripts/
@@ -26,11 +27,13 @@ Whats New Widget/
 │   └── template.html
 ├── ReadMe.md
 └── widget.png
-'''
+</p>
 
 ## Languages Used
-HTML
-CSS
-JavasScript
-AngularJS
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavasScript</li>
+    <li>AngularJS</li>
+</ul>
 
