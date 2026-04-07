@@ -8,6 +8,7 @@ This is the code for the What's New widget. This is the custom widget I created 
 ![image info](widget.png)
 
 ## File Structure
+'''
 Whats New Widget/
 ├── Deployment Update Record Scripts/
 │   ├── Client Scripts/
@@ -25,6 +26,7 @@ Whats New Widget/
 │   └── template.html
 ├── ReadMe.md
 └── widget.png
+'''
 
 ## Languages Used
 HTML
