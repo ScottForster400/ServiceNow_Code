@@ -8,26 +8,24 @@ This is the code for the What's New widget. This is the custom widget I created 
 ![image info](widget.png)
 
 ## File Structure
+    Whats New Widget/
+    ├── Deployment Update Record Scripts/
+    │   ├── Client Scripts/
+    │   │   ├── populate_description_catalogue.js
+    │   │   └── populate_description_knowledge.js
+    │   ├── Scheduled Jobs/
+    │   │   ├── expire_update.js
+    │   │   └── publish_update.js
+    │   └── Script Includes/
+    │       └── get_description.js
+    ├── Widget Code/
+    │   ├── client_script.js
+    │   ├── css.css
+    │   ├── script.js
+    │   └── template.html
+    ├── ReadMe.md
+    └── widget.png
 
-<p>
-Whats New Widget/
-├── Deployment Update Record Scripts/
-│   ├── Client Scripts/
-│   │   ├── populate_description_catalogue.js
-│   │   └── populate_description_knowledge.js
-│   ├── Scheduled Jobs/
-│   │   ├── expire_update.js
-│   │   └── publish_update.js
-│   └── Script Includes/
-│       └── get_description.js
-├── Widget Code/
-│   ├── client_script.js
-│   ├── css.css
-│   ├── script.js
-│   └── template.html
-├── ReadMe.md
-└── widget.png
-</p>
 
 ## Languages Used
 <ul>
